@@ -1,0 +1,82 @@
+header h1.title,
+header h3.desc{
+    text-align: center;
+}
+
+body{
+    width: 70%;
+    margin: auto;
+}
+
+a:link{
+    color: gray;
+}
+
+a:visited{
+    color: rgb(9, 0, 255);
+}
+
+a:hover{
+    color: rebeccapurple;
+}
+
+a:active{
+    color: teal;
+}
+
+#navigation{
+    
+    width: 100%; 
+    background-color: rgb(13, 207, 143);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(13, 207, 143);
+    font-family: sans-serif;
+    text-align: center; 
+}
+
+ul li{
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+ul li a{
+    display: inline-block;
+    color: white; 
+    text-align: center;
+    padding: 14px 16px; 
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: rgb(1, 212, 250);
+}
+
+p{
+    font-size: 110%;
+    color: black;
+}
+
+#content{
+    width: 100%; 
+    margin: 0 auto; 
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
